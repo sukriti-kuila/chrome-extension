@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name":"Social Media is Doglapan",
+    "description":"Social Media Addiction Warning",
+    "content_scripts":[
+        {
+            "matches":["*://*.facebook.com/*","*://*.twitter.com/*","*://*.youtube.com/*",
+            "*://*.instagram.com/*","*://*.linkedin.com/*","*://*.pinterest.com/*","*://*.reddit.com/*",
+            "*://*.snapchat.com/*","*://*.tumblr.com/*","*://*.whatsapp.com/*","*://*.vk.com/*"],
+            "js":["content.js"]
+        }
+    ]
+}
